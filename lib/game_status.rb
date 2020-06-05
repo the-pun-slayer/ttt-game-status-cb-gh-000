@@ -21,3 +21,8 @@ def won?(board)
 
     return false
 end
+
+def full?(board)
+  counter=0
+  board.each do |c|
+    if c=="X" 
