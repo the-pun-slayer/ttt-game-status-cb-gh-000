@@ -11,7 +11,7 @@ def won?(board)
 
     if board[win[0]] == "X" && board[win[1]] == "X" && board[win[2]] == "X"
       return true
-    elsif board[top_row_win[0]] == "O" && board[top_row_win[1]] == "O" && board[top_row_win[2]] == "O"
+    elsif board[win[0]] == "O" && board[win[1]] == "O" && board[win[2]] == "O"
       return true
     else
       return false
