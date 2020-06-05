@@ -17,6 +17,6 @@ def won?(board)
       break
     end
 
-    return false 
+    return false
 
 end
