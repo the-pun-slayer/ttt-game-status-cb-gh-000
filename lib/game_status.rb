@@ -11,9 +11,12 @@ def won?(board)
 
     if board[win[0]] == "X" && board[win[1]] == "X" && board[win[2]] == "X"
       return true
+      break
     elsif board[win[0]] == "O" && board[win[1]] == "O" && board[win[2]] == "O"
       return true
-    else
-      return false
+      break
     end
+
+    return false 
+
 end
