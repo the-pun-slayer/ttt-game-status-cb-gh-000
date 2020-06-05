@@ -25,4 +25,4 @@ end
 def full?(board)
   counter=0
   board.each do |c|
-    if c=="X" 
+    if c=="X"
