@@ -25,4 +25,13 @@ end
 def full?(board)
   counter=0
   board.each do |c|
-    if c=="X"
+    if c=="X"||c=="O"
+      counte+=1
+    end
+  end
+  if counter==9
+    return true
+  else 
+    return false
+  end
+end
